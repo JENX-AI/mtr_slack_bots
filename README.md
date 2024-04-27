@@ -24,7 +24,7 @@ Source: [together.ai](https://docs.together.ai/docs/inference-models)
 | Stanford     | Alpaca (7B)           | togethercomputer/alpaca-7b         | 2048           | Chat  |
 | Stability AI | Stable Diffusion 2.1  | stabilityai/stable-diffusion-2-1   | N/A            | Image |
 
-The Intro-Bot app makes use of the Llama-2-13b-chat-hf model.
+\*The Intro-Bot app makes use of the Llama-2-13b-chat-hf model.
 
 ## Directory structure
 
@@ -40,12 +40,6 @@ The current structure for hosting four baseline chat models is as follows:
 |                      |                           | `Yi-34B-Chat`              |
 |                      |                           | `Image-Bot`                |
 |                      |                           | `Intro-Bot`                |
-
-As explained elsewhere within this README file, the program is initially installed via the `install.sh` file.
-
-Once installed, the bots can be run with one command by running the `run_all.sh` file.
-
-The bots can also be run individually (once installed) by running their respective `run.sh` files located in the top level of each directory, for example, `mtr_slack_bots/slack_bots/alpaca-7b/run.sh`.
 
 ## Installation
 
@@ -101,7 +95,7 @@ Note the PID for the relevant process for the model to terminate, then run:
 
 ## Terms and conditions
 
-This project was developed between March and April 2024 on behalf of Gene Soo of MTR Corporation Limited by Joyce Chung, Nicholas Dykema and Elliott Steer (collectively, "the Authors").
+This project was developed between March and April 2024 on behalf of Gene Soo of MTR Corporation Limited by Joyce Chung, Nicholas Dykema and Elliott Steer ("the Authors").
 
 The source code is provided to MTR Corporation Limited by the Authors free of charge, and may be distributed in accordance with the project license provided that the Authors are fairly credited for their work.
 
