@@ -45,10 +45,10 @@ script_path = os.path.abspath(__file__)
 path_components = script_path.split(os.path.sep)
 """
 The end components of the config.py path string are as follows:
-{parent directory}/slackbot/src/utils/config.py
+{parent directory}/src/utils/config.py
 """
-if path_components[-5] in MODELS:
-    MODEL = MODELS[path_components[-5]]
+if path_components[-4] in MODELS:
+    MODEL = MODELS[path_components[-4]]
 else:
     # Use LLaMA-2 as default
     MODEL = MODELS["Llama-2-13b-chat-hf"]
