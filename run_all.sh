@@ -22,7 +22,7 @@ for dir in slack_bots/*; do
     # Set execute permissions for run.sh
     chmod +x run.sh
     # Execute script in separate terminal
-    screen -d -m ./run.sh 
+    nohup ./run.sh > /dev/null 2>&1 &
     echo "Running $dir..."
     # Move back one directory level
     cd -
