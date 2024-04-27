@@ -35,7 +35,7 @@ def generate_image(image_prompt: str, msg_id: str):
     # Get image from response
     images = res["choices"]
     # Create image directory (if not exists)
-    img_dir = os.path.join(os.getcwd(), "..", "images")
+    img_dir = os.path.join(os.getcwd(), "images")
     os.makedirs(img_dir, exist_ok=True)
     # Set file name and path
     img_file = f"{msg_id}.png"

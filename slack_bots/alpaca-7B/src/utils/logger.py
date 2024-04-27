@@ -22,7 +22,7 @@ def get_logger(name: str, log_file: str="error.log", log_level: int=logging.INFO
     logging.Logger : logger object
     """
     # Ensure logs directory exists
-    log_dir = os.path.join(os.getcwd(), "..", "logs")
+    log_dir = os.path.join(os.getcwd(), "logs")
     os.makedirs(log_dir, exist_ok=True)
 
     # Construct log path relative to logs directory
