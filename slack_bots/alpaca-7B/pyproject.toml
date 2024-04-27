@@ -29,8 +29,3 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
-
-[project.urls]
-documentation = "https://github.com/JENX-AI/slackbot/blob/main/README.md"
-repository = "https://github.com/JENX-AI/slackbot"
-issues = "https://github.com/JENX-AI/slackbot/issues"
