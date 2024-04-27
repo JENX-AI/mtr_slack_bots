@@ -21,10 +21,11 @@ for dir in slack_bots/*; do
     cd "$dir"
     # Set execute permissions for run.sh
     chmod +x run.sh
-    # Execute script
-    ./run.sh
+    # Execute script in separate terminal
+    screen -d -m ./run.sh 
     echo "Running $dir..."
-    cd ..  # Move back to the parent directory
+    # Move back one directory level
+    cd -
   fi
 done
 
