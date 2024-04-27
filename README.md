@@ -55,7 +55,9 @@ Navigate inside the main `mtr_slack_bots` directory and run the `install.sh` fil
 
 ## Operation
 
-Set up the relevant Slack apps as per the separate instructions providede, and create `.env` files within each bot's directory with their respective Slack app token, Slack bot token, and API key.
+Set up the relevant Slack apps in the desired Slack workspace as per the separate instructions provided (see slack_app_setup.pdf for detailed step-by-step instructions).
+
+Create `.env` files within each bot's base directory (so on the same level as where you will find each pyproject.toml file) with their respective Slack app token, Slack bot token, and Together.ai API key inserted as referenced in the above PDF document.
 
 ### Run all bots
 
