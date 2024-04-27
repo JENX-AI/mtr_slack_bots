@@ -38,7 +38,8 @@ for dir in slack_bots/*; do
     # Deactivate venv
     deactivate
     echo "Virtual environment deactivated"
-    cd ..  # Move back to the parent directory
+    # Move back one directory level
+    cd -
   fi
 done
 
