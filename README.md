@@ -28,7 +28,7 @@ Source: [together.ai](https://docs.together.ai/docs/inference-models)
 
 ## Directory structure
 
-The current structure for hosting four baseline chat models is as follows:
+The directory is organised as indicated in the table below, with separate sub-directories for each of the four chat models, the image model, and introductions model. The model directories contain numerous files that form the source code for each app, and that are not displayed here.
 
 | Parent directory     | `mtr_slack_bots` contents | `slack_bots` contents      |
 | -------------------- | ------------------------- | -------------------------- |
