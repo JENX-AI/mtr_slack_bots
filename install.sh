@@ -19,6 +19,9 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Pin uv to PATH
 source $HOME/.cargo/env
 
+# Add permissions to run_all.sh
+chmod +x run_all.sh
+
 # Loop through each directory in slack_bots
 for dir in slack_bots/*; do
   # Confirm it's a directory (avoid hidden files etc.)
@@ -34,7 +37,7 @@ for dir in slack_bots/*; do
     uv pip install -r requirements.txt
     echo "Installing..."
     # Wait while packages install
-    sleep 5
+    sleep 3
     # Deactivate venv
     deactivate
     echo "Virtual environment deactivated"
